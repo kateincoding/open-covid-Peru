@@ -8,6 +8,27 @@ import {
 } from "@material-ui/core";
 import DownBar from "../../components/downbar/downbar";
 
+{/*
+  falta json para leer variables y crear arrays
+  para leer el doc .json, primero se pasa a json y luego se le asigna los zipcode de la base de datos a distritos
+  componentDidMount() {
+    fetch('ARCHIVO JSON')
+    .then(response => response.json())
+    .then(ZipCode => this.setState({ distritos: ZipCode }));
+  }
+
+  handleChange = e => {
+    this.setState({ searchField: e.target.value })
+  };
+  el render funciona porque importa Component 
+  render() {
+    const {distritos, searchField} = this.state;
+    const filtereddistritos = distritos.filter(distrito => 
+      distrito.name.toLowerCase().includes(searchField.toLowerCase())
+    ); 
+*/}
+
+
 function Statistics(){
   return (
     <div>
