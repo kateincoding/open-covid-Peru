@@ -34,7 +34,7 @@ import DownBar from "../../components/downbar/downbar";
 function Statistics(){
   return (
     <div>
-      <FormControl className="app_dropdown">
+      <FormControl className="app-dropdown">
         <Select
               variant="outlined"
               value = "abc"
