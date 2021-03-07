@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.app-header{
+  background-color: #f5f6fa;
+}
+.app-header>h1 {
+    color: #fc3c3c;
+    font-size: 2rem;
+  }
+
+.app-dropdown {
+    background-color: white;
+  }

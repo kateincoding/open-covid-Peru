@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.styles.css';
 import {
   MenuItem,
   FormControl,
@@ -10,9 +11,9 @@ import DownBar from "../../components/downbar/downbar";
 
 function Home(){
   return (
-    <div>
+    <div className="app-header">
       <h1>Selecciona tu distrito:</h1>
-      <FormControl className="app_drop_down">
+      <FormControl className="app-dropdown">
         <Select
               variant="outlined"
               value = "abc"

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../App.css";
 import {
   MenuItem,
   FormControl,
@@ -33,7 +34,7 @@ import DownBar from "../../components/downbar/downbar";
 function Statistics(){
   return (
     <div>
-      <FormControl className="app_drop_down">
+      <FormControl className="app_dropdown">
         <Select
               variant="outlined"
               value = "abc"
