@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #263238;
+  --primary-light: #4f5b62;
+  --primary-dark: #2c3d72;
+  --secondary: #dd2c00;
+  --secondary-light: #ff6434;
+  --secondary-dark: #a30000;
+  --star-active: #ff9500;
+  --star-inactive: #d9d5d2;
+  --background-color: #e1e2e1;
+  --font-family: "Varela", sans-serif;
+  --font-family1: "Varela Round", sans-serif;
+  --font-family2: "Merriweather", serif;
+  --h6: 21px;
+  --h6-space: 0.15px;
+  --h5: 25px;
+  --h4: 35px;
+  --h4-space: 0.25px;
+  --h3: 50px;
+  --subtitle-1: 17px;
+  --sub-1-space: 0.15px;
+  --subtitle-2: 15px;
+  --sub-2-space: 0.1px;
+  --body1: 15px;
+  --body1-space: 0.5px;
+  --body2: 13px;
+  --body2-space: 0.25px;
+  --button: 13px;
+  --button-space: 1.25px;
+  --caption: 11px;
+  --caption-space: 0.4px;
+  --overline: 10ox;
+  --overline-space: 1.5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  li {
+    list-style-type: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a {
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: var(--primary-dark);
+  }
+  nav .logo {
+    font-size: var(--h5);
+    color: white;
+  }
+
+  nav .menu {
+    color: white;
+  }
+
+  /***********/
+  /* DOWNBAR */
+  /***********/
+
+  .main-downbar {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+    background-color: var(--primary-dark);
+    position: relative;
+    top: 92vh;
+  }
+
+  .downbar-icon {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .downbar-icon:hover {
+    cursor: pointer;
   }
 }
