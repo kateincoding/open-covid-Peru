@@ -1,0 +1,15 @@
+[
+  {"provincia": "Lima",
+  "departamento": "Lima",
+"distrito": "Cercado",
+"Muertes": 3456,
+"uci": 5,
+"vacunados": 300},
+
+{"provincia": "Lima",
+  "departamento": "Lima",
+"distrito": "La Molina",
+"Muertes": 2400,
+"uci": 0,
+"vacunados": 120}
+]

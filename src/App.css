@@ -8,7 +8,7 @@
   --star-active: #ff9500;
   --star-inactive: #d9d5d2;
   --background-color: #e1e2e1;
-  --font-family: "Varela", sans-serif;
+  --font-family: "Poppins", sans-serif;
   --font-family1: "Varela Round", sans-serif;
   --font-family2: "Merriweather", serif;
   --h6: 21px;
@@ -118,7 +118,11 @@
   /************/
 
   .selector_container h3 {
-    margin: 30px auto 20px 0px;
+    margin: 20px auto 20px 0px;
+  }
+
+  .selector_container h5 {
+    margin: 0px;
   }
 
   .selector_container .provincia,
